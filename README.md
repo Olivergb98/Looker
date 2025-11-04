@@ -1,8 +1,12 @@
 # Looker Dashboard Project
 
-Este proyecto tiene como objetivo explorar el uso de **Looker Studio** para la creación de dashboards a partir de datos generados artificialmente. El flujo de trabajo incluyó la generación de un dataset simulado con Python, su limpieza y posterior análisis visual en Looker.
+EExploración de Looker Studio para crear un dashboard interactivo de marketing digital a partir de datos generados sintéticamente con Python.
+El proyecto demuestra el flujo completo desde la generación de un dataset hasta la visualización dinámica de métricas clave.
 
-👉 [Link al dashboard interactivo]()
+
+Link al dashboard interactivo:
+
+https://lookerstudio.google.com/reporting/6ec60200-6689-4dbe-942a-c02bb731ceb4/page/vhRZF
 
 ---
 
@@ -12,14 +16,14 @@ Aprender a:
 
 * Generar un conjunto de datos sintético para pruebas de visualización.
 * Importar y transformar datos en **Looker Studio**.
-* Crear un dashboard con métricas clave de marketing digital.
+* Diseñar un dashboard con indicadores clave de rendimiento (KPIs) y segmentaciones interactivas.
 
 ---
 
 ## 🧩 Generación del dataset
 
-El dataset se creó mediante un script en Python utilizando las librerías `pandas`, `numpy`, y `random`.
-Se generaron **2,500 registros** que simulan métricas de campañas publicitarias en distintos canales, fuentes y campañas.
+El dataset se creó mediante un script en Python utilizando las librerías pandas, numpy, y random, con una semilla fija para reproducibilidad.
+Se generaron 2,500 registros que simulan campañas publicitarias en diferentes canales y plataformas.
 
 **Variables principales:**
 
@@ -32,7 +36,7 @@ Se generaron **2,500 registros** que simulan métricas de campañas publicitaria
 * `Impressions`, `Video Views`, `Conversions`, `Conversion Rate`
 
 El código completo se encuentra en el notebook del proyecto:
-`data_generator.ipynb`
+`Dataset_generator.ipynb`
 
 ---
 
@@ -42,12 +46,13 @@ El dataset fue cargado en **Looker Studio** para crear un dashboard interactivo 
 
 **Métricas destacadas (2024):**
 
-* **Spend total:** $45.38M
+* **Spend total:** $42.3M
 * **CTR promedio:** 3.4%
-* **Impressions:** 614.5M
-* **Video Views:** 306.9M
-* **Conversions:** 8.9M
-* **Conversion Rate:** 64.1K
+* **CPC promedio:** $3.2
+* **Impressions:** 612.1M
+* **Video Views:** 310.9M
+* **Conversions:** 8.3M
+* **Conversion Rate:** 60.8K
 
 **Principales visualizaciones:**
 
@@ -78,12 +83,4 @@ Este proyecto me permitió:
 * **Jupyter Notebook**
 
 ---
-
-## 📁 Estructura del proyecto
-
-```
-├── data_generator.ipynb       # Script de generación de datos
-├── Test_Dashboard.pdf          # Reporte final exportado desde Looker
-├── README.md                   # Descripción del proyecto
-```
 
